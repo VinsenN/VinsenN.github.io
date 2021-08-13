@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doto 2</title>
+    <!-- sudah dipanggil jquery 3.5.1, spesifik -->
+    <!-- kayak ngelink ke js, ke suatu file di website -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- kalau ndak ada internet, offline, https bisa gagal konek -->
+    <script src="https://kit.fontawesome.com/5f0f0f2d20.js"></script>
+    <link rel="stylesheet" href="../css/heroes.css">
+    <title>Heroes</title>
+    <link rel="icon" href="../assets/logo-icon.png">
+
+</head>
+<body>
+    <div class = "heroes-list-background">
+        <div class="container">
+            <div class="header">
+                <div class="mobile-only">
+                    <a href="../html/index.html"><img class="header-logo" src="../assets/logo.png" alt="logo-doto2"></a>
+                    <div class="hamburger"><span class="fa fa-bars"></span></div>
+                </div>
+                <div class="navbar">
+                    <div class="navigation">
+                        <div class="navbar-button"><a href="../html/index.html">home</a></div>
+
+                        <div class="navbar-dropdown">
+                            <button class="navbar-dropdown-button">
+                                game <span class="fa fa-caret-down"></span>
+                            </button>
+                            <div class="navbar-game-content">
+                                <div class = "list-game"><a href="../html/heroes.html" class="navbar-down-list">heroes</a></div>
+                                <div class = "list-game"><a href="../html/guide.html" class="navbar-down-list">guide</a></div>
+                            </div>
+                        </div>
+
+                        <div class="navbar-button"><a href="../html/merchandise.html">merchandise</a></div>
+                    </div>
+
+                    <div class="register">
+                        <a class="register-button" href="../html/register.html">register</a>
+                    </div>
+                </div>
+            </div>
+            <script src="../script/hamburger.js"></script>
+        </div>
+
+        <div class = "content">
+            <div class="merchandise-title"><h1>HEROES</h1></div>
+            <div class="select-category-container">
+                <div class="select-category">
+                    <div class="category-option" id = "ctg-0" category-num = "0"><h4>Strength</h4></div>
+                    <div class="category-option" id = "ctg-1" category-num = "1"><h4>Agility</h4></div>
+                    <div class="category-option" id = "ctg-2" category-num = "2"><h4>Intelligence</h4></div>
+                </div>
+            </div>
+            <div class="content-menu">
+                <div class="display">
+                    <div class="category">
+                        <a href="../html/heroes-list/Anti-Mage.html" class ="heroes-html" category-num = "1">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Anti Mage/Anti Mage - Small.png" alt="">
+                                <p>Anti-Mage</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Axe.html" class ="heroes-html"  category-num = "0">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Axe/Axe - Small.png" alt="">
+                                <p>Axe</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Earthshaker.html" class ="heroes-html" category-num = "0">
+                            <div class="heroes" ><img class="image" src="../assets/heroes/Earthshaker/Earthshaker - Small.png" alt="">
+                                <p>Earthshaker</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Juggernaut.html" class ="heroes-html" category-num = "1">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Juggernaut/Juggernaut - Small.png" alt="">
+                                <p>Juggernaut</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Legion-Commander.html" class ="heroes-html" category-num = "0">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Legion Commander/Legion Commander - Small.png" alt="">
+                                <p>Legion Commander</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Lich.html" class ="heroes-html" category-num = "2">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Lich/Lich - Small.png" alt="">
+                                <p>Lich</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Mars.html" class ="heroes-html" category-num = "0">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Mars/Mars - Small.png" alt="">
+                                <p>Mars</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Necrophos.html" class ="heroes-html" category-num = "2">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Necrophos/Necrophos - Small.png" alt="">
+                                <p>Necrophos</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Phantom-Assassin.html" class ="heroes-html" category-num = "1">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Phantom Assassin/Phantom Assassin - Small.png" alt="">
+                                <p>Phantom Assassin</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Rubick.html" class ="heroes-html" category-num = "2">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Rubick/Rubick - Small.png" alt="">
+                                <p>Rubick</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Silencer.html" class ="heroes-html" category-num = "2">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Silencer/Silencer - Small.png" alt="">
+                                <p>Silencer</p>
+                            </div>
+                        </a>
+                        <a href="../html/heroes-list/Ursa.html" class ="heroes-html" category-num = "1">
+                            <div class="heroes"><img class="image" src="../assets/heroes/Ursa/Ursa - Small.png" alt="">
+                                <p>Ursa</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <script src="../script/heroes.js"></script>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">
+            <img id ="footer-logo-stg" src="../assets/logo.png"/>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="../assets/social-media/youtube.png" alt="fb" class = "footer-media-stg">
+            </a>
+            <a href="http://instagram.com/" target="_blank">
+                <img src="../assets/social-media/instagram.png" alt="ig" class = "footer-media-stg">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../assets/social-media/facebook.png" alt="fb" class = "footer-media-stg">
+            </a>
+            <a href="http://twitter.com/" target="_blank">
+                <img src="../assets/social-media/twitter.png" alt="ig" class = "footer-media-stg">
+            </a>
+        </div>
+        <div class="footer-copyright">
+            Doto and the Doto logo are trademarks and/or registered trademarks of Doto <br>
+            Corporation. 2021 Doto Corporation, all rights reserved.<br><br><br>
+            
+            2440022504 - Bobby Susanto Ali | 2440030582 - Gregorius Emmanuel Henry | 2440031521 - Vinsen Nawir
+        </div>
+    </div>
+</body>
+</html>
