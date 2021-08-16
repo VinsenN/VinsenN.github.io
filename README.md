@@ -1,7 +1,11 @@
 # VinsenN.github.io
-Team Project Human and Computer Interaction
+Team Project Human and Computer Interaction - Doto 2
 
-Dibuat oleh:
+Website: https://vinsenn.github.io/
+
+Made By:
 - Bobby Susanto Ali
 - Gregorius Emmanuel Henry
 - Vinsen Nawir
+
+Please send me an email on vinsen.nawir@binus.ac.id for suggestion, thank you :D.
