@@ -1,7 +1,7 @@
 # Doto 2 - Human and Computer Interaction Project
 Team Project Human and Computer Interaction - Doto 2
 
-Website: https://vinsenn.github.io/
+Website: https://vinsenn.github.io/doto-2/
 
 Made By:
 - Bobby Susanto Ali
