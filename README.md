@@ -1,4 +1,4 @@
-# VinsenN.github.io
+# Doto 2 - Huuman and Computer Interaction Project
 Team Project Human and Computer Interaction - Doto 2
 
 Website: https://vinsenn.github.io/
